@@ -70,12 +70,12 @@ export default function PortfolioContent() {
         tabIndex={-1}
       >
         {/* Hero Section */}
-        <section
+        {/* <section
           id="hero"
           className="relative h-[100vh] flex items-center justify-center bg-gradient-to-r from-blue-600 to-indigo-800 text-white"
           aria-labelledby="hero-heading"
           tabIndex={-1}
-        >
+        > */}
           {/* <div
             className="absolute inset-0 opacity-20 bg-[url('/placeholder.svg?height=1080&width=1920')] bg-cover bg-center"
             aria-hidden="true"
@@ -96,12 +96,12 @@ export default function PortfolioContent() {
               </p>
             </div> */}
           </div>
-        </section>
+        {/* </section> */}
 
         {/* About Section */}
         <section className="py-20 bg-gray-50 dark:bg-gray-800" id="about" aria-labelledby="about-heading" tabIndex={-1}>
           <div className="container mx-auto px-4">
-            <h2 id="about-heading" className="text-3xl font-bold mb-12 text-center">
+            <h2 id="about-heading" className="text-3xl font-bold mb-12 text-center" aria-label="A propos" tabIndex={0}>
               À propos
             </h2>
             <div className="flex flex-col md:flex-row items-center gap-10">
