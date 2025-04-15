@@ -86,9 +86,9 @@ export default function PortfolioContent() {
             </h1>
             <h2 className="text-2xl md:text-3xl font-light mb-8"aria-label="Domaine d'activiter : Développeur &  IA / Data" aria-hidden="true">
             Développeur &  IA / Data</h2>
-            <div className="flex items-center justify-center space-x-2 text-lg" aria-label="localisation : principalement Lyon et aussi mobilité géographiquement" aria-hidden="true">
+            <div className="flex items-center justify-center space-x-2 text-lg">
               <MapPin className="h-5 w-5" aria-hidden="true" />
-              <span>Lyon, France (mobilité géographique)</span>
+              <span aria-label="localisation : principalement Lyon et aussi mobilité géographiquement">Lyon, France (mobilité géographique)</span>
             </div>
             {/* <div className="mt-8">
               <p className="text-lg">
