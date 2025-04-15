@@ -220,13 +220,13 @@ export default function PortfolioContent() {
                     <h3 className="text-xl font-semibold mb-4" aria-label="Soft skills" tabIndex={0}>Soft skills</h3>
                     <div className="grid grid-cols-1 gap-4">
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium" aria-label="" tabIndex={0}>Prise de parole en public</span>
+                        <span className="font-medium" aria-label="Prise de parole en public" tabIndex={0}>Prise de parole en public</span>
                       </div>
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium" aria-label="" tabIndex={0}>Travail en équipe</span>
+                        <span className="font-medium" aria-label="Travail en équipe" tabIndex={0}>Travail en équipe</span>
                       </div>
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium" aria-label="" tabIndex={0}>Discipline</span>
+                        <span className="font-medium" aria-label="Discipline" tabIndex={0}>Discipline</span>
                       </div>
                     </div>
                   </div>
@@ -241,11 +241,11 @@ export default function PortfolioContent() {
                     aria-hidden="true"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold mb-4" aria-label="" tabIndex={0}>Langues</h3>
+                    <h3 className="text-xl font-semibold mb-4" aria-label="Langues" tabIndex={0}>Langues</h3>
                     <div className="space-y-4">
                       <div className="space-y-2">
                         <div className="flex justify-between">
-                          <span>Français </span>
+                          <span aria-label="Français Natif" tabIndex={0}>Français </span>
                           <span>Natif</span>
                         </div>
                         <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
@@ -254,12 +254,12 @@ export default function PortfolioContent() {
                             style={{ width: "100%" }}
                             aria-hidden="true"
                           ></div>
-                          <span className="sr-only" aria-label="" tabIndex={0}>Niveau de français: Natif (100%)</span>
+                          <span className="sr-only">Niveau de français: Natif (100%)</span>
                         </div>
                       </div>
                       <div className="space-y-2">
                         <div className="flex justify-between">
-                          <span>Anglais</span>
+                          <span aria-label="Anglais B2" tabIndex={0}>Anglais</span>
                           <span>B2</span>
                         </div>
                         <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
@@ -268,12 +268,12 @@ export default function PortfolioContent() {
                             style={{ width: "75%" }}
                             aria-hidden="true"
                           ></div>
-                          <span className="sr-only" aria-label="" tabIndex={0}>Niveau d'anglais: B2 (75%)</span>
+                          <span className="sr-only">Niveau d'anglais: B2 (75%)</span>
                         </div>
                       </div>
                       <div className="space-y-2">
                         <div className="flex justify-between">
-                          <span>Espagnol</span>
+                          <span aria-label="Espagnol B2" tabIndex={0}>Espagnol</span>
                           <span>B2</span>
                         </div>
                         <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
@@ -282,7 +282,7 @@ export default function PortfolioContent() {
                             style={{ width: "75%" }}
                             aria-hidden="true"
                           ></div>
-                          <span className="sr-only" aria-label="" tabIndex={0}>Niveau d'espagnol: B2 (75%)</span>
+                          <span className="sr-only">Niveau d'espagnol: B2 (75%)</span>
                         </div>
                       </div>
                     </div>
@@ -298,22 +298,22 @@ export default function PortfolioContent() {
                     aria-hidden="true"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold mb-4" aria-label="" tabIndex={0}>Intérêts</h3>
+                    <h3 className="text-xl font-semibold mb-4" aria-label="Intérêts" tabIndex={0}>Intérêts</h3>
                     <div className="grid grid-cols-2 gap-4">
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium" aria-label="" tabIndex={0}>Musculation</span>
+                        <span className="font-medium" aria-label="Musculation" tabIndex={0}>Musculation</span>
                       </div>
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium" aria-label="" tabIndex={0}>Basketball</span>
+                        <span className="font-medium" aria-label="Basketball" tabIndex={0}>Basketball</span>
                       </div>
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium" aria-label="" tabIndex={0}>Ski</span>
+                        <span className="font-medium" aria-label="Ski" tabIndex={0}>Ski</span>
                       </div>
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium" aria-label="" tabIndex={0}>Snowboard</span>
+                        <span className="font-medium" aria-label="Snowboard" tabIndex={0}>Snowboard</span>
                       </div>
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center col-span-2">
-                        <span className="font-medium" aria-label="" tabIndex={0}>Bénévolat (Croix-Rouge, Rotary)</span>
+                        <span className="font-medium" aria-label="Bénévolat (Croix-Rouge, Rotary)" tabIndex={0}>Bénévolat (Croix-Rouge, Rotary)</span>
                       </div>
                     </div>
                   </div>
@@ -331,7 +331,7 @@ export default function PortfolioContent() {
           tabIndex={-1}
         >
           <div className="container mx-auto px-4">
-            <h2 id="education-heading" className="text-3xl font-bold mb-12 text-center" aria-label="" tabIndex={0}>
+            <h2 id="education-heading" className="text-3xl font-bold mb-12 text-center" aria-label="Formation" tabIndex={0}>
               Formation
             </h2>
             <div className="space-y-8 max-w-3xl mx-auto">
@@ -342,9 +342,10 @@ export default function PortfolioContent() {
                     aria-hidden="true"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold" aria-label="" tabIndex={0}>Bachelor Informatique, spécialité IA / Data</h3>
-                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="" tabIndex={0}>Ynov Campus, Lyon | 2023 - 2026</p>
-                    <p className="text-gray-700 dark:text-gray-300" aria-label="" tabIndex={0}>
+                    <h3 className="text-xl font-semibold" aria-label="Bachelor Informatique, spécialité IA / Data" tabIndex={0}>Bachelor Informatique, spécialité IA / Data</h3>
+                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="A Ynov Campus, à Lyon de 2023 a 2026" tabIndex={0}>Ynov Campus, Lyon | 2023 - 2026</p>
+                    <p className="text-gray-700 dark:text-gray-300" aria-label="Formation complète en informatique avec une spécialisation en Intelligence Artificielle et Data
+                      Science." tabIndex={0}>
                       Formation complète en informatique avec une spécialisation en Intelligence Artificielle et Data
                       Science.
                     </p>
@@ -359,9 +360,9 @@ export default function PortfolioContent() {
                     aria-hidden="true"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold" aria-label="" tabIndex={0}>Rotary étudiant d'échange</h3>
-                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="" tabIndex={0}>Cordoba, Argentine | 2022 - 2023</p>
-                    <p className="text-gray-700 dark:text-gray-300" aria-label="" tabIndex={0}>
+                    <h3 className="text-xl font-semibold" aria-label="Rotary étudiant d'échange" tabIndex={0}>Rotary étudiant d'échange</h3>
+                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="A Cordoba en Argentine de 2022 a 2023" tabIndex={0}>Cordoba, Argentine | 2022 - 2023</p>
+                    <p className="text-gray-700 dark:text-gray-300" aria-label="Programme d'échange international permettant une immersion culturelle et linguistique complète." tabIndex={0}>
                       Programme d'échange international permettant une immersion culturelle et linguistique complète.
                     </p>
                   </div>
@@ -375,10 +376,10 @@ export default function PortfolioContent() {
                     aria-hidden="true"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold" aria-label="" tabIndex={0}>Bac STI2D</h3>
-                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="" tabIndex={0}>Lycée Louis-Lachenal, Argonay | 2019 - 2022</p>
-                    <p className="text-gray-700 dark:text-gray-300" aria-label="" tabIndex={0}>
-                      Baccalauréat Sciences et Technologies de l'Industrie et du Développement Durable.
+                    <h3 className="text-xl font-semibold" aria-label="Bac STI2D" tabIndex={0}>Bac STI2D</h3>
+                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="A Lycée Louis-Lachenal a Argonay de 2019 a 2022" tabIndex={0}>Lycée Louis-Lachenal, Argonay | 2019 - 2022</p>
+                    <p className="text-gray-700 dark:text-gray-300" aria-label="Baccalauréat Sciences et Technologies de l'Industrie et du Développement Durable. Mention assez bien." tabIndex={0}>
+                      Baccalauréat Sciences et Technologies de l'Industrie et du Développement Durable. Mention asser Bien.
                     </p>
                   </div>
                 </div>
@@ -390,7 +391,7 @@ export default function PortfolioContent() {
         {/* Experience Section */}
         <section className="py-20" id="experience" aria-labelledby="experience-heading" tabIndex={-1}>
           <div className="container mx-auto px-4">
-            <h2 id="experience-heading" className="text-3xl font-bold mb-12 text-center" aria-label="" tabIndex={0}>
+            <h2 id="experience-heading" className="text-3xl font-bold mb-12 text-center" aria-label="Expériences Professionnelles" tabIndex={0}>
               Expériences Professionnelles
             </h2>
             <div className="space-y-8 max-w-3xl mx-auto">
@@ -401,9 +402,10 @@ export default function PortfolioContent() {
                     aria-hidden="true"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold" aria-label="" tabIndex={0}>Chef de projet IA / Pédagogie</h3>
-                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="" tabIndex={0}>Projet STELLAR | 2024 - 2025</p>
-                    <p className="text-gray-700 dark:text-gray-300" aria-label="" tabIndex={0}>
+                    <h3 className="text-xl font-semibold" aria-label="Chef de projet" tabIndex={0}>Chef de projet</h3>
+                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="Projet STELLAR | 2024 - 2025" tabIndex={0}>Projet STELLAR | 2024 - 2025</p>
+                    <p className="text-gray-700 dark:text-gray-300" aria-label="Gestion de projet dans le domaine de l'intelligence artificielle avec un focus sur les aspects
+                      pédagogiques." tabIndex={0}>
                       Gestion de projet dans le domaine de l'intelligence artificielle avec un focus sur les aspects
                       pédagogiques.
                     </p>
@@ -418,9 +420,9 @@ export default function PortfolioContent() {
                     aria-hidden="true"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold" aria-label="" tabIndex={0}>Projet de sensibilisation en cybersécurité</h3>
-                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="" tabIndex={0}>CyberSec | 2023 - 2024</p>
-                    <p className="text-gray-700 dark:text-gray-300" aria-label="" tabIndex={0}>
+                    <h3 className="text-xl font-semibold" aria-label="Projet de sensibilisation en cybersécurité" tabIndex={0}>Projet de sensibilisation en cybersécurité</h3>
+                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="CyberSec | 2023 - 2024" tabIndex={0}>CyberSec | 2023 - 2024</p>
+                    <p className="text-gray-700 dark:text-gray-300" aria-label="Participation à un projet visant à sensibiliser différents publics aux enjeux de la cybersécurité." tabIndex={0}>
                       Participation à un projet visant à sensibiliser différents publics aux enjeux de la cybersécurité.
                     </p>
                   </div>
@@ -434,9 +436,9 @@ export default function PortfolioContent() {
                     aria-hidden="true"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold" aria-label="" tabIndex={0}>Magasinier</h3>
-                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="" tabIndex={0}>VELSOL FRANCE | Été 2023</p>
-                    <p className="text-gray-700 dark:text-gray-300" aria-label="" tabIndex={0}>
+                    <h3 className="text-xl font-semibold" aria-label="Magasinier" tabIndex={0}>Magasinier</h3>
+                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="VELSOL FRANCE | Été 2023" tabIndex={0}>VELSOL FRANCE | Été 2023</p>
+                    <p className="text-gray-700 dark:text-gray-300" aria-label="Gestion de stock, préparation de commandes et organisation logistique." tabIndex={0}>
                       Gestion de stock, préparation de commandes et organisation logistique.
                     </p>
                   </div>
@@ -450,9 +452,9 @@ export default function PortfolioContent() {
                     aria-hidden="true"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold" aria-label="" tabIndex={0}>Ouvrier</h3>
-                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="" tabIndex={0}>Bati Service, Suisse | Juin 2024</p>
-                    <p className="text-gray-700 dark:text-gray-300" aria-label="" tabIndex={0}>
+                    <h3 className="text-xl font-semibold" aria-label="Ouvrier" tabIndex={0}>Ouvrier</h3>
+                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="Bati Service, Suisse | Juin 2024" tabIndex={0}>Bati Service, Suisse | Juin 2024</p>
+                    <p className="text-gray-700 dark:text-gray-300" aria-label="Travaux de construction et rénovation dans le secteur du bâtiment." tabIndex={0}>
                       Travaux de construction et rénovation dans le secteur du bâtiment.
                     </p>
                   </div>
@@ -466,9 +468,9 @@ export default function PortfolioContent() {
                     aria-hidden="true"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold" aria-label="" tabIndex={0}>Employé Polyvalent</h3>
-                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="" tabIndex={0}>Netto | Été 2022</p>
-                    <p className="text-gray-700 dark:text-gray-300" aria-label="" tabIndex={0}>
+                    <h3 className="text-xl font-semibold" aria-label="Employé Polyvalent" tabIndex={0}>Employé Polyvalent</h3>
+                    <p className="text-gray-600 dark:text-gray-400 mb-2" aria-label="Netto | Été 2022" tabIndex={0}>Netto | Été 2022</p>
+                    <p className="text-gray-700 dark:text-gray-300" aria-label="Diverses responsabilités incluant la gestion de caisse, mise en rayon et service client." tabIndex={0}>
                       Diverses responsabilités incluant la gestion de caisse, mise en rayon et service client.
                     </p>
                   </div>
@@ -486,7 +488,7 @@ export default function PortfolioContent() {
           tabIndex={-1}
         >
           <div className="container mx-auto px-4">
-            <h2 id="projects-heading" className="text-3xl font-bold mb-12 text-center" aria-label="" tabIndex={0}>
+            <h2 id="projects-heading" className="text-3xl font-bold mb-12 text-center" aria-label="Projets" tabIndex={0}>
               Projets
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -495,18 +497,27 @@ export default function PortfolioContent() {
                 description="Développement d'une plateforme d'apprentissage IA pour les étudiants."
                 tags={["Python", "Machine Learning", "Pédagogie"]}
                 image="/placeholder.svg?height=300&width=400"
+                aria-label="Titre : Projet STELLAR
+                Description : Développement d'une plateforme d'apprentissage IA pour les étudiants.
+                Compétence acquise : Python, Machine Learning, Pédagogie"
               />
               <ProjectCard
                 title="CyberSec"
                 description="Création d'ateliers de sensibilisation à la cybersécurité pour différents publics."
-                tags={["Sécurité", "Formation", "Sensibilisation"]}
+                tags={["Sécurité"]}
                 image="/placeholder.svg?height=300&width=400"
+                aria-label="Titre : CyberSec
+                Description : Création d'ateliers de sensibilisation à la cybersécurité pour différents publics.
+                Compétence acquise : Sécurité"
               />
               <ProjectCard
                 title="Analyse de données"
                 description="Projet d'analyse statistique sur des données environnementales."
                 tags={["Python", "Data Science", "Visualisation"]}
                 image="/placeholder.svg?height=300&width=400"
+                aria-label="Titre : Analyse de données
+                Description : Projet d'analyse statistique sur des données environnementales.
+                Compétence acquise : Python, Data Science, Visualisation"
               />
             </div>
           </div>
@@ -515,7 +526,7 @@ export default function PortfolioContent() {
         {/* Contact Section */}
         <section className="py-20" id="contact" aria-labelledby="contact-heading" tabIndex={-1}>
           <div className="container mx-auto px-4">
-            <h2 id="contact-heading" className="text-3xl font-bold mb-12 text-center" aria-label="" tabIndex={0}>
+            <h2 id="contact-heading" className="text-3xl font-bold mb-12 text-center" aria-label="Contact" tabIndex={0}>
               Contact
             </h2>
             <div className="max-w-3xl mx-auto">
