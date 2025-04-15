@@ -81,14 +81,14 @@ export default function PortfolioContent() {
             aria-hidden="true"
           ></div> */}
           <div className="container mx-auto px-4 z-10 text-center">
-            <h1 id="hero-heading" className="text-5xl md:text-7xl font-bold mb-4" aria-label="Nom de l'auteur : Erwan AGESNE" aria-hidden="true">
+            <h1 id="hero-heading" className="text-5xl md:text-7xl font-bold mb-4" aria-label="Nom de l'auteur : Erwan AGESNE" tabIndex={0}>
               Erwan AGESNE
             </h1>
-            <h2 className="text-2xl md:text-3xl font-light mb-8"aria-label="Domaine d'activiter : Développeur &  IA / Data" aria-hidden="true">
+            <h2 className="text-2xl md:text-3xl font-light mb-8"aria-label="Domaine d'activiter : Développeur &  IA / Data" tabIndex={0}>
             Développeur &  IA / Data</h2>
             <div className="flex items-center justify-center space-x-2 text-lg">
               <MapPin className="h-5 w-5" aria-hidden="true" />
-              <span aria-label="localisation : principalement Lyon et aussi mobilité géographiquement">Lyon, France (mobilité géographique)</span>
+              <span aria-label="localisation : principalement Lyon et aussi mobilité géographiquement" tabIndex={0}>Lyon, France (mobilité géographique)</span>
             </div>
             {/* <div className="mt-8">
               <p className="text-lg">
