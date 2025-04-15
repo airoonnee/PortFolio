@@ -67,14 +67,14 @@ export default function PortfolioContent() {
         className={`min-h-screen bg-white dark:bg-gray-900 transition-opacity duration-500 ${
           isLoaded ? "opacity-100" : "opacity-0"
         }`}
-        tabIndex={-1}
+        tabIndex={0}
       >
         {/* Hero Section */}
         <section
           id="hero"
           className="relative h-[100vh] flex items-center justify-center bg-gradient-to-r from-blue-600 to-indigo-800 text-white"
           aria-labelledby="hero-heading"
-          tabIndex={-1}
+          tabIndex={0}
         >
           <div
             className="absolute inset-0 opacity-20 bg-[url()] bg-cover bg-center"
