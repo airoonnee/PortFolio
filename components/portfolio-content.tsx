@@ -117,8 +117,8 @@ export default function PortfolioContent() {
               </div>
               <div className="w-full md:w-2/3">
                 <div className="bg-white dark:bg-gray-900 p-8 rounded-lg shadow-md">
-                  <h3 className="text-2xl font-semibold mb-4">Erwan AGESNE</h3>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4">21 ans | Mobilité géographique</p>
+                  <h3 className="text-2xl font-semibold mb-4" aria-label="Je suis Erwan AGESNE" tabIndex={0}>Erwan AGESNE</h3>
+                  <p className="text-gray-600 dark:text-gray-300 mb-4" aria-label="J'ai 21 ans et je suis mobile géographiquement" tabIndex={0}>21 ans | Mobilité géographique</p>
                   <div className="flex flex-col space-y-3 mb-6">
                     <div className="flex items-center">
                       <Phone className="h-5 w-5 mr-3 text-blue-600 dark:text-blue-400" aria-hidden="true" />
@@ -153,7 +153,9 @@ export default function PortfolioContent() {
                       </Link>
                     </div>
                   </div>
-                  <p className="text-gray-700 dark:text-gray-300">
+                  <p className="text-gray-700 dark:text-gray-300" aria-label="brève présentation : Étudiant en Bachelor Informatique spécialisé en IA et Data, je suis passionné par les nouvelles
+                    technologies et l'innovation. Mon expérience internationale en Argentine m'a permis de développer
+                    une grande adaptabilité et une ouverture d'esprit essentielle dans le domaine tech." tabIndex={0}>
                     Étudiant en Bachelor Informatique spécialisé en IA et Data, je suis passionné par les nouvelles
                     technologies et l'innovation. Mon expérience internationale en Argentine m'a permis de développer
                     une grande adaptabilité et une ouverture d'esprit essentielle dans le domaine tech.
@@ -167,7 +169,7 @@ export default function PortfolioContent() {
         {/* Skills Section */}
         <section className="py-20" id="skills" aria-labelledby="skills-heading" tabIndex={-1}>
           <div className="container mx-auto px-4">
-            <h2 id="skills-heading" className="text-3xl font-bold mb-12 text-center">
+            <h2 id="skills-heading" className="text-3xl font-bold mb-12 text-center" aria-label="Compétences" tabIndex={0}>
               Compétences
             </h2>
             <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -179,28 +181,28 @@ export default function PortfolioContent() {
                     aria-hidden="true"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold mb-4">Compétences techniques</h3>
+                    <h3 className="text-xl font-semibold mb-4" aria-label="Compétences techniques" tabIndex={0}>Compétences techniques</h3>
                     <div className="grid grid-cols-2 gap-4">
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium">Python</span>
+                        <span className="font-medium" aria-label="Python" tabIndex={0}>Python</span>
                       </div>
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium">SQL</span>
+                        <span className="font-medium" aria-label="SQL" tabIndex={0}>SQL</span>
                       </div>
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium">Golang</span>
+                        <span className="font-medium" aria-label="Golang" tabIndex={0}>Golang</span>
                       </div>
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium">C#</span>
+                        <span className="font-medium" aria-label="C#" tabIndex={0}>C#</span>
                       </div>
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium">Linux</span>
+                        <span className="font-medium" aria-label="Linux" tabIndex={0}>Linux</span>
                       </div>
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
-                        <span className="font-medium">Git</span>
+                        <span className="font-medium" aria-label="Git" tabIndex={0}>Git</span>
                       </div>
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center col-span-2">
-                        <span className="font-medium">Analyse statistique</span>
+                        <span className="font-medium" aria-label="Analyse statistique" tabIndex={0}>Analyse statistique</span>
                       </div>
                     </div>
                   </div>
@@ -215,7 +217,7 @@ export default function PortfolioContent() {
                     aria-hidden="true"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold mb-4">Soft skills</h3>
+                    <h3 className="text-xl font-semibold mb-4" aria-label="Soft skills" tabIndex={0}>Soft skills</h3>
                     <div className="grid grid-cols-1 gap-4">
                       <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-lg text-center">
                         <span className="font-medium">Prise de parole en public</span>
