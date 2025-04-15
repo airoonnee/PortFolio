@@ -76,10 +76,10 @@ export default function PortfolioContent() {
           aria-labelledby="hero-heading"
           tabIndex={-1}
         >
-          <div
+          {/* <div
             className="absolute inset-0 opacity-20 bg-[url('/placeholder.svg?height=1080&width=1920')] bg-cover bg-center"
             aria-hidden="true"
-          ></div>
+          ></div> */}
           <div className="container mx-auto px-4 z-10 text-center">
             <h1 id="hero-heading" className="text-5xl md:text-7xl font-bold mb-4" aria-label="Nom de l'auteur : Erwan AGESNE" aria-hidden="true">
               Erwan AGESNE
