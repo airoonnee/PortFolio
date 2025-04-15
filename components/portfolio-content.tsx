@@ -99,7 +99,7 @@ export default function PortfolioContent() {
         {/* </section> */}
 
         {/* About Section */}
-        <section className="py-20 bg-gray-50 dark:bg-gray-800" id="about" aria-labelledby="about-heading" tabIndex={-1}>
+        <section className="py-20 bg-gray-50 dark:bg-gray-800" id="about" aria-labelledby="about-heading" tabIndex={0}>
           <div className="container mx-auto px-4">
             <h2 id="about-heading" className="text-3xl font-bold mb-12 text-center" aria-label="A propos" tabIndex={0}>
               À propos
